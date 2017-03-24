@@ -1,0 +1,179 @@
+{
+
+    "webhooksTrello": {
+        "enabled": false,
+        "application_key": "YOUR_APPLICATION_KEY",
+        "token": "YOUR_USER_TOKEN",
+        "watch": [
+            {
+                "idModel": "YOUR_ID_MODEL",
+                "channels": [
+                    "141982742937075712"
+                ]
+            }
+        ]
+    },
+    "webhooksBitbucket": {
+        "enabled": false,
+        "watch": [
+            {
+                "url": "https://bitbucket.org/fortiscore/fortis-discord-bot",
+                "channels": [
+                    "142011886391525376",
+                    "174257824761774080"
+                ]
+            },
+            {
+                "url": "https://bitbucket.org/fortiscore/fortis-web",
+                "channels": [
+                    "142011886391525376"
+                ]
+            }
+        ]
+    },
+    "feedReader": {
+        "enabled": false,
+        "checkInterval": 15,
+        "feeds": [
+            {
+                "url": "http://fortiscoregaming.com/rss/*",
+                "channels": [
+                    "141907633077616640",
+                    "143146341999181824"
+                ]
+            },
+            {
+                "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCxv8P7p8KHLVp4qTqAp01uA",
+                "channels": [
+                    "141907633077616640",
+                    "143146341999181824"
+                ]
+            }
+        ]
+    },
+    "audioManager": {
+        "enabled": false
+    },
+    "autoVoiceReconnect": {
+        "enabled": false
+    },
+    "globalRateLimiter": {
+        "enabled": false
+    },
+    "newMemberAlert": {
+        "enabled": false,
+        "announce"     : ":high_brightness: %here: Welcome %user to the server!",
+        "directmessage": ":wave: Welcome to the official chat server for http://fortiscoregaming.com, friend!\n\nI'm our local automation bot.\n\nFeel free to type `%help` to me at any time for a list of commands!\n\n*Also, remember to validate your email so that you can start chatting if you haven't already!*"
+    },
+    "permissionHelper": {
+        "enabled": false
+    },
+    "pinAlert": {
+        "enabled": false
+            },
+    "roomManager": {
+        "enabled": false,
+        "checkInterval": 1,
+        "checkAfter": 1,
+        "minUsers": 1
+    },
+    "voiceAnnounce": {
+        "enabled": true,
+        "Server":{
+            "203443031704076291": {
+                "vcID": "203443031704076292",
+                "reportToChannel": "203472309716123648" 
+            },
+            "246660598102884353": {
+                "vcID": "247114175451627520",
+                "reportToChannel": "286233898025746453"
+            }
+        }
+    },
+    "statTracker": {
+      "enabled": true,
+      "rememberedGames": 10,
+      "levelUp": {
+        "203443031704076291": {
+          "reportToChannel": "292588802583691264",
+          "ranks": [
+            {
+              "rank":"The Introducedz",
+              "postReq":1,
+              "message": "Congrats on your first post, %user! Stay active to gain more ranks!"
+            },
+            {
+              "rank":"The Newbie",
+              "postReq":5,
+              "message": "So that's how this chat thing works! %user has ranked up to %rank!"
+            },
+            {
+              "rank":"I'm Around",
+              "postReq":25,
+              "message": "Making progress, %user smashes into the scene with the new rank of %rank!"
+            },
+            {
+              "rank":"The Familiar Face",
+              "postReq":100,
+              "message": "%user has made a name for themselves, earning the rank of %rank!"
+            },
+            {
+              "rank":"The Regular",
+              "postReq":200,
+              "message": "Everyone knows %user by now, earning them the rank of %rank!"
+            },
+            {
+              "rank":"The Conversationalist",
+              "postReq":500,
+              "message": "It's about sending the message. %user has gained the rank of %rank!"
+            },
+            {
+              "rank":"The Avatar Of Chat",
+              "postReq":2000,
+              "message": "The pinnacle of community has been harnessed by %user, who has now obtained the high rank of %rank. All bow before them!"
+            },
+            {
+              "rank":"Dragonkin",
+              "postReq":5000,
+              "message": "Clearly inhuman, %user has obtained the rank of %rank. Was it converstion? Spam perhaps? The world may never know."
+            },
+            {
+              "rank":"Dragon Overlord",
+              "postReq":10000,
+              "message": "%user is no longer human at all. The sheer number of messages sent by this user has earned them the coveted rank of %rank. Was it worth it, you monster?"
+            },
+            {
+              "rank":"Ultra Dragon Overlord",
+              "postReq":25000,
+              "message": "Chatting through time and space, %user has found a way to bend chat into their own dimensional playground. Earning the rank of %rank, nobody is safe."
+            }
+          ]
+        }
+      }
+    },
+    "tshockAPIBridge": {
+        "enabled": false,
+        "api_host": "YOUR_TSHOCK_API_HOST_URL",
+        "username": "YOUR_TSHOCK_ADMIN_USERNAME",
+        "password": "YOUR_TSHOCK_ADMIN_PASSWORD"
+    },
+    "unflipTables": {
+        "enabled": false
+    },
+    "weatherProvider": {
+        "enabled": false,
+        "application_key": "YOUR_DARKSKY_API_KEY"
+    },
+    "dictionaryApi": {
+      "enabled": false,
+      "dictionary_key": "YOUR_DICTIONARYAPI.COM_DICTIONARY_KEY",
+      "thesaurus_key": "YOUR_DICTIONARYAPI.COM_THESAURUS_KEY"
+    },
+    "pokeAPI": {
+      "enabled": false
+    },
+    "giantBombApi": {
+      "enabled": false,
+      "application_key": "YOUR_GIANTBOMB_API_KEY"
+    }
+}

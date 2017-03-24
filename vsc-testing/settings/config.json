@@ -1,0 +1,25 @@
+{
+    "prefix": "!",
+    "playing": "type: !?",
+
+    "home": {
+        "server" : "203443031704076291",
+        "channel": "203443031704076291"
+    },
+
+    "administrators": [
+        "203435970182250498",
+	    "146600814574567425"
+    ],
+
+    "web": {
+        "user": "username",
+        "pass": "password",
+        "port": 8080
+    },
+
+    "api": {
+        "discord_bot_token": "API_KEY"
+    }
+}
+

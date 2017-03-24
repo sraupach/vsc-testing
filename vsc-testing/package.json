@@ -1,0 +1,35 @@
+{
+  "name": "dudu-bot",
+  "author": "Krasserdudu",
+  "description": "Using -->Fortis Core Official Discord Bot",
+  "license": "Fortis Core Owned & Operated",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/fortiscore/fortis-discord-bot"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "cheerio": "^0.20.0",
+    "discord.io": "^2.0",
+    "du": "^0.1.0",
+    "feedparser": "^1.1.4",
+    "fuzzy": "^0.1.3",
+    "geocoder": "^0.2.2",
+    "leetspeak": "^0.0.1",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.10",
+    "nedb": "^1.8.0",
+    "progress": "*",
+    "request": "^2.72.0",
+    "short-number": "^1.0.6",
+    "socket.io": "^1.4.8",
+    "net-ping": "*",
+    "singly-linked-list": "0.2.7" 
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}
+

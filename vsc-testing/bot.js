@@ -67,11 +67,6 @@
 
     });
 
-    var getNick = function (uID) {
-        var usernick = client.users[uID].username;
-        return usernick;
-    }
-
     client.on('message', function (user, userID, channelID, message, event) {
         const meta = {
             user: user,
